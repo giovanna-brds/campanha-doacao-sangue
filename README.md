@@ -1,5 +1,7 @@
 # 🩸 Campanha Doe Sangue
 
+- **Acesse o projeto online:** [https://campanha-doacao-sangue.vercel.app](https://campanha-doacao-sangue.vercel.app)
+
 ## 📝 Descrição do Projeto
 O **Doe Sangue** é uma plataforma web informativa e interativa desenvolvida para conscientizar a população sobre a importância da doação de sangue no Brasil. O projeto visa esclarecer dúvidas frequentes, quebrar mitos, informar os pré-requisitos básicos e oferecer uma ferramenta de autoavaliação rápida para potenciais doadores.
 
