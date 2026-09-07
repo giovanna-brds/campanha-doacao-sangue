@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩸 Campanha Doe Sangue
 
-## Getting Started
+## 📝 Descrição do Projeto
+O **Doe Sangue** é uma plataforma web informativa e interativa desenvolvida para conscientizar a população sobre a importância da doação de sangue no Brasil. O projeto visa esclarecer dúvidas frequentes, quebrar mitos, informar os pré-requisitos básicos e oferecer uma ferramenta de autoavaliação rápida para potenciais doadores.
 
-First, run the development server:
+Foi construído com foco em alta performance, acessibilidade e design responsivo utilizando a stack moderna do **Next.js** com **Tailwind CSS**.
 
+---
+
+## ⚙️ Funcionalidades do Projeto
+- **Página Inicial (Hero Section):** Destaque da campanha com estatísticas de impacto social e chamada para ação.
+- **Seção Informativa:** Conteúdo explicativo sobre os motivos e benefícios da doação (incluindo dados sobre saúde cardiovascular).
+- **Quiz de Autoavaliação:** Questionário interativo que analisa a aptidão do usuário e fornece explicações imediatas em caso de impedimentos temporários.
+- **Mitos e Verdades:** Quebra de tabus comuns que afastam novos doadores.
+- **Navegação Suave e Responsiva:** Layout adaptado para dispositivos móveis e computadores.
+
+---
+
+## 🧪 Testes de Software
+- **Teste de Depuração:** Correção de redirecionamentos em botões da interface, validação do evento de clique e ajuste no fluxo do quiz.
+- **Teste de Funcionamento:** Validação das rotas internas via links de âncora (`#href`) e transições do estado do quiz (avanço automático quando apto e exibição de alerta explicativo quando inapto).
+- **Teste de Segurança:** Verificação de ausência de credenciais ou variáveis de ambiente sensíveis no repositório público, garantindo a conformidade com boas práticas.
+
+---
+
+## 🛠️ Tecnologias e Linguagens
+- **TypeScript**
+- **HTML5**
+- **CSS3**
+
+---
+
+## 📚 Bibliotecas e Frameworks
+- **Next.js 14** (Framework React)
+- **React** (Biblioteca de interface)
+- **Tailwind CSS** (Framework de estilização utilitária)
+- **Lucide React** (Biblioteca de ícones)
+
+---
+
+## 📦 Pré-requisitos e Instalação
+
+### Pré-requisitos
+- **Node.js** (versão 18.x ou superior)
+- Gerenciador de pacotes **npm** ou **yarn**
+
+### Passo a passo para clonar e instalar
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1. Clone o repositório
+git clone [https://github.com/giovanna-brds/campanha-doacao-sangue.git](https://github.com/giovanna-brds/campanha-doacao-sangue.git)
+
+# 2. Acesse a pasta do projeto
+cd campanha-doacao-sangue
+
+# 3. Instale as dependências
+npm install
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  🚀 Instruções de Uso
+```bash
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 1. Abra o terminal na pasta do projeto e execute o servidor de desenvolvimento:
+   npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 2. Acesse no navegador o endereço:
+   http://localhost:3000
 
-## Learn More
+# 3. Navegue pelas seções utilizando o menu superior ou realize a autoavaliação no Quiz.
+```
+---
 
-To learn more about Next.js, take a look at the following resources:
+##  📖 Documentação
+- Para a construção deste projeto, foram consultadas as documentações oficiais das seguintes tecnologias:
+- [Next.js Documentation](https://nextjs.org/docs) — Guia de componentes, roteamento e otimização.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) — Guia de classes utilitárias e responsividade.
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/) — Tipagem estática para React.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licença
+- Este projeto possui **Licença MIT** e destina-se para **uso educacional, não comercial e de portfólio.** Sinta-se à vontade para utilizar o código, com a devida atribuição de créditos ao desenvolvedor original.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
